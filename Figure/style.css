@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.wrap {
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+}
+
+.circle1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% / 3);
+  height: calc(100% / 3);
+  background-color: rgb(227, 32, 32);
+  border-radius: 50%;
+}
+
+.circle1:hover {
+  z-index: 1;
+  background-color: rgb(245, 132, 19);
+}
+
+.circle2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(100% / 3);
+  height: calc(100% / 3);
+  background-color: rgb(227, 32, 32);
+  border-radius: 50%;
+}
+
+.circle2:hover {
+  z-index: 1;
+  background-color: rgb(236, 8, 160);
+}
+
+.circle3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: calc(100% / 3);
+  height: calc(100% / 3);
+  background-color: rgb(227, 32, 32);
+  border-radius: 50%;
+}
+
+.circle3:hover {
+  z-index: 1;
+  background-color: rgb(160, 236, 8);
+}
+
+.circle4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(100% / 3);
+  height: calc(100% / 3);
+  background-color: rgb(227, 32, 32);
+  border-radius: 50%;
+}
+
+.circle4:hover {
+  z-index: 1;
+  background-color: rgb(8, 236, 198);
+}
+
+.blueSquare {
+  position: absolute;
+  top: calc(100% / 6);
+  left: calc(100% / 6);
+  width: calc(100% / 3 * 2);
+  height: calc(100% / 3 * 2);
+  background-color: rgb(8, 171, 236);
+}
+
+.blueSquare:hover {
+  z-index: 2;
+  background-color: rgb(68, 19, 245);
+}
+
+.yellowSquare {
+  position: absolute;
+  top: calc(100% / 3);
+  left: calc(100% / 3);
+  width: calc(100% / 3);
+  height: calc(100% / 3);
+  background-color: rgb(236, 198, 8);
+  border-radius: 15%;
+}
